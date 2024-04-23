@@ -46,12 +46,12 @@ export function Basket(props) {
                     changeQuantityItem(game.id, data.value)
                   }
                 />
-                <span>
+                <span> $
                   {fn.calcDiscountedPrice(
                     game.attributes.price,
                     game.attributes.discount
                   )}
-                  €
+                 COP
                 </span>
               </div>
             </div>

@@ -86,13 +86,13 @@ export function Resume(props) {
                 <p>{game.attributes.title}</p>
                 <span>{game.attributes.platform.data.attributes.title}</span>
               </div>
-              <span>
+              <span>$
                 {game.quantity > 0 && `${game.quantity}x`}
                 {fn.calcDiscountedPrice(
                   game.attributes.price,
                   game.attributes.discount
                 )}
-                €
+                COP
               </span>
             </div>
           ))}
@@ -102,7 +102,7 @@ export function Resume(props) {
       <div className={styles.blockTotal}>
         <div>
           <span>Total</span>
-          <span>{total}€</span>
+          <span>${total}COP</span>
         </div>
 
         <Button

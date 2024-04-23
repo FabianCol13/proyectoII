@@ -37,7 +37,7 @@ export function Order(props) {
           <p>{getTotalProducts()} productos</p>
         </div>
 
-        <p>{order.attributes.totalPayment.toFixed(2)}€</p>
+        <p>${order.attributes.totalPayment.toFixed(2)}COP</p>
       </div>
 
       <BasicModal
@@ -63,7 +63,7 @@ export function Order(props) {
                     product.attributes.price,
                     product.attributes.discount
                   )}
-                  €
+                  $
                 </span>
               </div>
             </div>
@@ -82,7 +82,7 @@ export function Order(props) {
         </div>
 
         <div className={styles.total}>
-          <p>TOTAL: {order.attributes.totalPayment.toFixed(2)}€</p>
+          <p>TOTAL: {order.attributes.totalPayment.toFixed(2)}$</p>
         </div>
       </BasicModal>
     </>
