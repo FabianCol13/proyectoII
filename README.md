@@ -35,6 +35,6 @@ Next
 
 ## 📚 Otros
 
-1. Documentación en: link
+1. Documentación [link](https://drive.google.com/drive/folders/10PlGPWsoNEDvuZVG_C39mgbrDhvWSqCB?usp=sharing)
 
-2. Video demo: link
+2. Video demo: [link](https://drive.google.com/file/d/1p5iUBZ0TbMLrDBYDfnPgr2GIFca0J0yS/view?usp=drive_link)
